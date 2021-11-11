@@ -1,0 +1,8 @@
+clock_config.c:4:6:setup_clock	16	static
+clock_config.c:65:6:delay_milis1	16	static
+clock_config.c:72:6:delay_milis	16	static
+clock_config.c:88:6:setup_clock_for_GPIO	16	static
+clock_config.c:111:6:setup_clock_for_USART	16	static
+clock_config.c:138:6:setup_clock_for_I2C	16	static
+clock_config.c:155:6:setup_clock_for_TIMERs	16	static
+clock_config.c:206:6:setup_clock_for_CAN	16	static
