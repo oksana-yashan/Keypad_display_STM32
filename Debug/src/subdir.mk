@@ -8,12 +8,14 @@ S_SRCS += \
 ../src/startup_stm32f40xx.s 
 
 C_SRCS += \
+../src/keypad.c \
 ../src/main.c \
 ../src/stm32f4xx_it.c \
 ../src/system_stm32f4xx.c \
 ../src/tiny_printf.c 
 
 OBJS += \
+./src/keypad.o \
 ./src/main.o \
 ./src/startup_stm32f40xx.o \
 ./src/stm32f4xx_it.o \
@@ -24,6 +26,7 @@ S_DEPS += \
 ./src/startup_stm32f40xx.d 
 
 C_DEPS += \
+./src/keypad.d \
 ./src/main.d \
 ./src/stm32f4xx_it.d \
 ./src/system_stm32f4xx.d \

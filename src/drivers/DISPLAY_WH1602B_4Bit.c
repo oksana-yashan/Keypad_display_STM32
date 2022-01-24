@@ -5,9 +5,18 @@ static char empty_field[] = "                                ";
 void Display_Init()
 {
 	delay_milis(40);
+	Display_Write_Ins(0x03); 	//as per documentation set 4-bit mode
+	delay_milis(40);
+
+	Display_Write_Ins(0x03); 	//as per documentation set 4-bit mode
+	delay_milis(40);
+
+	Display_Write_Ins(0x03); 	//as per documentation set 4-bit mode
+	delay_milis(40);
+
 
 	Display_Write_Ins(0x02); 	//as per documentation set 4-bit mode
-	delay_milis(DISPLAY_DELAY);
+	delay_milis(40);
 
 //	Display_Write_Ins(0x28);
 	Display_Write_Ins(TWO_LINE_MODE);

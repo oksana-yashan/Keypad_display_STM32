@@ -1,4 +1,7 @@
-src/main.o: ../src/main.c \
+src/keypad.o: ../src/keypad.c \
+ D:/university/7sem/diploma/keypad_display/src/drivers/DISPLAY_WH1602B_4Bit.h \
+ D:/university/7sem/diploma/keypad_display/src/drivers/clock_config.h \
+ ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h \
  ../Libraries/Device/STM32F4xx/Include/stm32f4xx.h \
  ../Libraries/CMSIS/Include/core_cm4.h \
  ../Libraries/CMSIS/Include/core_cmInstr.h \
@@ -22,7 +25,6 @@ src/main.o: ../src/main.c \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_i2c.h \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_iwdg.h \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_pwr.h \
- ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rng.h \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rtc.h \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_sdio.h \
@@ -32,9 +34,15 @@ src/main.o: ../src/main.c \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_usart.h \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_wwdg.h \
  ../Libraries/STM32F4xx_StdPeriph_Driver/inc/misc.h \
- ../src/drivers/DISPLAY_WH1602B_4Bit.h ../src/drivers/clock_config.h \
- ../src/drivers/LEDs.h ../src/drivers/USART.h \
- ../src/drivers/clock_config.h
+ D:/university/7sem/diploma/keypad_display/src/drivers/LEDs.h \
+ D:/university/7sem/diploma/keypad_display/src/drivers/USART.h \
+ ../src/keypad.h
+
+D:/university/7sem/diploma/keypad_display/src/drivers/DISPLAY_WH1602B_4Bit.h:
+
+D:/university/7sem/diploma/keypad_display/src/drivers/clock_config.h:
+
+../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h:
 
 ../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:
 
@@ -82,8 +90,6 @@ src/main.o: ../src/main.c \
 
 ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_pwr.h:
 
-../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h:
-
 ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rng.h:
 
 ../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rtc.h:
@@ -102,12 +108,8 @@ src/main.o: ../src/main.c \
 
 ../Libraries/STM32F4xx_StdPeriph_Driver/inc/misc.h:
 
-../src/drivers/DISPLAY_WH1602B_4Bit.h:
+D:/university/7sem/diploma/keypad_display/src/drivers/LEDs.h:
 
-../src/drivers/clock_config.h:
+D:/university/7sem/diploma/keypad_display/src/drivers/USART.h:
 
-../src/drivers/LEDs.h:
-
-../src/drivers/USART.h:
-
-../src/drivers/clock_config.h:
+../src/keypad.h:

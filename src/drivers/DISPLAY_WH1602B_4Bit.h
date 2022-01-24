@@ -79,13 +79,7 @@
 #define SET_D5			(uint8_t(0x00 & BIT_3_MASK))
 #define SET_D4			(uint8_t(0x00 & BIT_2_MASK))
 
-void print_display(char);
 
-void print_display_array(char[4]);
-
-void setup_first_line(void);
-
-void setup_second_line(void);
 
 void Display_example(void);
 
@@ -110,6 +104,14 @@ void Display_clear(void);
 void Display_clear_field(uint8_t size);
 
 void setup_Display(void);
+
+void print_display(char);
+
+void print_display_array(char[4]);
+
+void setup_first_line(void);
+
+void setup_second_line(void);
 
 //void Display_ctrl(void);
 

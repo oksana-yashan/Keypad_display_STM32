@@ -42,6 +42,7 @@
 "./src/drivers/interrupts.o"
 "./src/drivers/peripheral_pinout.o"
 "./src/drivers/timers.o"
+"./src/keypad.o"
 "./src/main.o"
 "./src/startup_stm32f40xx.o"
 "./src/stm32f4xx_it.o"
